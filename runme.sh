@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "copy sources.list to /etc/apt ..."  
+echo "copy sources.list to /etc/apt ..."
 
 sudo cp -f ./sources.list /etc/apt/
 
