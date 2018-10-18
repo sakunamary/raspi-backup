@@ -13,9 +13,13 @@ echo "finish update apt"
 
 echo "install pixel"
 
-sudo apt-get install xorg
-sudo apt-get install lxde openbox
-sudo apt-get install pix-icons pix-plym-splash rpd-wallpaper
-sudo apt-get install raspberrypi-ui-mods
-sudo apt-get install ttf-wqy-zenhei
+sudo apt-get -y install xorg
+sudo apt-get -y install lxde openbox
+sudo apt-get -y install pix-icons pix-plym-splash rpd-wallpaper
+sudo apt-get -y install raspberrypi-ui-mods
+sudo apt-get -y install ttf-wqy-zenhei 
 echo "--------finish install pixel ------------ "
+
+echo "install arduino "
+sudo apt-get -y install arduino 
+echo "finish arduino installing..."
