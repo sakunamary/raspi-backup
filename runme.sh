@@ -26,6 +26,6 @@ echo "finish arduino installing..."
 
 echo "setup python dev "
 
-sudo apt-get -y install python-dev python3-dev 
+sudo apt-get -y install python-dev python3-dev  python-pip python3-pip
 
 echo "finished setup python dev "
