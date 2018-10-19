@@ -23,3 +23,9 @@ echo "--------finish install pixel ------------ "
 echo "install arduino "
 sudo apt-get -y install arduino 
 echo "finish arduino installing..."
+
+echo "setup python dev "
+
+sudo apt-get -y install python-dev python3-dev 
+
+echo "finished setup python dev "
