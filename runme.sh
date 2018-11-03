@@ -20,6 +20,7 @@ sudo apt-get -y install pix-icons pix-plym-splash
 sudo apt-get -y install raspberrypi-ui-mods
 sudo apt-get -y install ttf-wqy-zenhei 
 sudo apt-get -y install git
+sudo apt-get install fcitx fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-sunpinyin
 echo "--------finish install pixel ------------ "
 
 echo "install arduino "
