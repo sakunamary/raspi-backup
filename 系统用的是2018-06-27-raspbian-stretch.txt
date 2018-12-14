@@ -1,0 +1,2 @@
+修改config_2560X1600.TXT文件名为config.txt  覆盖TF卡根目录下的config.txt 即可
+树莓派系统下载的是2018-06-27-raspbian-stretch
