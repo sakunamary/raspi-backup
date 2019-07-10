@@ -42,7 +42,7 @@ sudo mkdir  $dst_boot_path
 mount -t vfat /dev/sda1 $dst_boot_path  
 
 sudo chmod 777  $dst_boot_path/
-sudo rsync -ax /boot/   $dst_root_path
+sudo rsync -ax /boot/   $dst_boot_path
 #sudo cp -rfp /boot/* $dst_boot_path 
 
 echo "Finish."
